@@ -1,0 +1,42 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.grid_container
+{
+    border: 1px solid gray;
+    counter-reset: number;
+    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(4 , 180px );
+    grid-template-rows: repeat(5 , 180px );
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.grid_container > *
+{
+    border: 1px dashed black;
+}
+
+.grid_container > div::after
+{
+    counter-increment: number;
+    content: counter(number);
+}
+
+.two , .three
+{
+    grid-column: span 2;
+}
+
+.seven
+{
+    grid-row: 2 span;
+}
+
+.ten
+{
+    grid-column: 2 span;
+}

@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.grid_container
+{
+    border: 1px dashed gray;
+    counter-reset: number;
+    display: grid;
+    grid-template-columns: repeat(3 , minmax( 200px , 1fr ) );
+    grid-template-rows: 50px 200px 1fr 100px;
+    grid-gap: 10px;
+}
+
+.grid_container > *
+{
+    border: 1px solid black;
+}
+
+.grid_container > div::after
+{
+    counter-increment: number;
+    content: counter(number);
+}
+
+footer
+{
+    grid-column: 1 / 4 ;
+    grid-row: 3 / 5 ;
+}
