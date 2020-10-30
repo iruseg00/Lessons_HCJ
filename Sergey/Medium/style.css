@@ -10,7 +10,7 @@ body
 {
     text-rendering: optimizeLegibility;
     height: 2000px;
-    min-height: 100vh;
+    min-width: 100vh;
     color: #292929;
     font-family: Helvetica, sans-serif;
 }
@@ -237,7 +237,7 @@ body
     align-items: flex-start;
 }
 
-.fuck
+.item_theme
 {
     margin-bottom: 5px;
     display: flex;
@@ -270,7 +270,7 @@ h2
     font-weight: 400;
 }
 
-.tegs
+.tags
 {
     width: 100%;
     display: flex;
@@ -278,7 +278,7 @@ h2
     margin-top: 40px;
 }
 
-.tegs_conteiner
+.tags_container
 {
     width: 90%;
     display: grid;
@@ -287,30 +287,30 @@ h2
     grid-template-rows: 1fr;
 }
 
-.tegs_container1
+.tags_container1
 {
     display: block;
     grid-column: 1/span 8;
 }
 
-.tegs_container2
+.tags_container2
 {
     display: block;
     grid-column: 9/span 4;
 }
 
-.tegs_container2_top
+.tags_container2_top
 {
     border-bottom: 1px solid gray;
     padding-bottom: 24px;
 }
 
-.tegs_container2_bottom
+.tags_container2_bottom
 {
     padding: 24px 0px;
 }
 
-.tegs_header2
+.tags_header2
 {
     text-transform: uppercase;
     font-size: 14px;
@@ -322,7 +322,7 @@ h2
     margin-bottom: 16px;
 }
 
-.teg2
+.tag2
 {
     border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 5px;
@@ -335,7 +335,7 @@ h2
     margin-right: 4px;
 }
 
-.teg3
+.tag3
 {
     display: inline-block;
     font-size: 13px;
@@ -345,7 +345,7 @@ h2
     margin-bottom: 10px;
 }
 
-.tegs_footer2
+.tags_footer2
 {
     font-size: 14px;
     line-height: 16px;
@@ -355,7 +355,7 @@ h2
     margin-top: 10px;
 }
 
-.teg1, .tegs_footer1:hover
+.tag1, .tags_footer1:hover
 {
     cursor: pointer;
 }
