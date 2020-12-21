@@ -1,33 +1,27 @@
-@media sreen , (max-width: 1200px)
-{
-    .container , .banner_container , .banner_container2
-    {
-        width: 95%;
-    }
+@media sreen, (max-width: 1200px) {
+  .container,
+  .banner_container,
+  .banner_container2 {
+    width: 95%;
+  }
 
-    .card
-    {
-        height: 130px;
-    }
+  .card {
+    height: 130px;
+  }
 
-    .medium
-    {
-        width: 100%;
-    }
+  .medium {
+    width: 100%;
+  }
 }
 
-@media sreen , (max-width: 1000px)
-{
-    .image_banner
-    {
-        position: absolute;
-        top: 75px;
-        right: 30px;
-    }
+@media sreen, (max-width: 1000px) {
+  .image_banner {
+    position: absolute;
+    top: 75px;
+    right: 30px;
+  }
 
-    .banner_container
-    {
-        justify-content: flex-start;
-    }
+  .banner_container {
+    justify-content: flex-start;
+  }
 }
-
