@@ -1,0 +1,254 @@
+
+.landing_basement {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 559px;
+  background-color: #191d20;
+  padding: 45px 0px 0px;
+}
+
+.menu_upper {
+  display: flex;
+  padding: 0px 0px 15px;
+  margin: 0px 0px 3px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+  height: 246px;
+  border-bottom: 1px solid #7c7c7c;
+}
+
+.menu_items {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.9;
+  padding: 0px 0px 22px;
+  width: 285px;
+  height: 230px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-size: 22px;
+  margin: 0 0 14px;
+}
+
+.title {
+  text-decoration: none !important;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.3s;
+}
+
+.title:hover {
+  background-size: 67% 1px;
+}
+
+.design {
+  text-decoration: none !important;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.3s;
+}
+
+.design:hover {
+  background-size: 26% 1px;
+}
+
+.menu_items_links:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu_items_links:visited {
+  color: #ffffff;
+}
+
+.menu_items_links:hover {
+  text-decoration-line: underline;
+}
+
+.menu_lower {
+  width: 1200px;
+  height: 235px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #7c7c7c;
+  padding: 35px 0px 0px;
+  margin: 0px 0px 30px;
+}
+
+.row {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logotype {
+  width: 217px;
+  height: 84px;
+}
+
+.lider {
+  width: 550px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.lider_title {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.625;
+  position: absolute;
+  left: 24px;
+}
+
+.facebook {
+  width: 305px;
+  height: 84px;
+  position: relative;
+}
+
+.book {
+  font-size: 35px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.book:hover {
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  height: 111px;
+  width: 100%;
+}
+
+.list_contacts {
+  width: 285px;
+  height: 111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list_of_numbers {
+  width: 285px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.i_address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.address {
+  width: 260px;
+  height: 70px;
+  line-height: 1.57;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.studio {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.department {
+  color: #8ec2ff;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.phone,
+.envelope {
+  font-size: 20px;
+  margin: 0px 10px 0px 0px;
+}
+
+.phone_number,
+.db_by {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  font-size: 12px;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid#aab1bc;
+  float: left;
+  width: calc(100% - 30px);
+}
+
+.submit input {
+  border: none;
+  padding: 0;
+  background: 0 0;
+}
+
+input {
+  outline: 0;
+}
+
+.submit {
+  cursor: pointer;
+  float: left;
+  width: 30px;
+  font-size: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2px;
+}
+.submit::before {
+  content: url(../../../../Downloads/search-solid.svg);
+  width: 19px;
+  height: 19px;
+}
+
+.map {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline !important;
+}
+
+.map:hover {
+  text-decoration: none !important;
+}
