@@ -229,6 +229,7 @@ h4
 a
 {
     text-decoration: none
+    
 }
 
 h2
@@ -310,27 +311,30 @@ h2
 .btns
 {
     margin: 12px 0;
-    display: grid;
-    grid-template-columns: 115px 115px 3fr;
-    grid-row-start: initial;
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
+    width: 400px;
+    flex-direction: row;
+    justify-content: flex-start;
+    
    
 }
 
 .push
 {
+    cursor: pointer;
     color: rgba(117, 117, 117, 1);
     background-color: inherit;
-    margin-right: 8px;
+    margin-right: 4px;
     margin-bottom: 8px;
     border: 1px solid rgba(230, 230, 230, 1);
-    padding: 6px 16px;
+    padding: 10px 18px;
     border-radius: 3px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 .link_end
 {
+    cursor: pointer;
     margin-bottom: 18px;
     font-size: 14px;
     color: rgba(26, 137, 23, 1);
